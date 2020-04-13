@@ -19,7 +19,7 @@ const StyledSearchContainer = styled.div`
 const StickySideBar = ({ content }) => (
   <StyledContainer>
     <StyledSearchContainer>
-      <SearchBox />
+      <SearchBox onChange={() => {}} />
     </StyledSearchContainer>
     { content() }
   </StyledContainer>

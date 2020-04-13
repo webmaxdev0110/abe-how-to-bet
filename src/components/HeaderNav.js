@@ -43,12 +43,12 @@ const HeaderNav = () => {
     <NavWrapper>
       <HeaderLogo />
       <Nav>
-        {routes.map((route) => (
-          <NavItem>
+        {routes.map((route, index) => (
+          <NavItem key={index}>
             <StyledNavLink
               tag={Link}
               to={route.link}
-              className={location.pathname === route.link ? 'active' : ''}
+              className={location.pathname.indexOf(route.link) > -1 ? 'active' : ''}
             >
               {route.label}
             </StyledNavLink>

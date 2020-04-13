@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArticleLayout, ArticleBottom } from '../../layout';
-import { Heading, SubHeading, Paragraph, Anchor, ScrollUp } from '../../components';
+import { Heading, SubHeading, Paragraph, Anchor, ScrollUp, PageNavLink } from '../../components';
 
 const Page = () => (
   <>
@@ -123,7 +123,7 @@ const Page = () => (
       </Paragraph>
     </ArticleLayout>
     <ArticleBottom>
-      <Anchor fontSize="14" lineHeight="16" color="#88979E" to="/how-to-bet/betting-101/betting-odds">next: betting odds</Anchor>
+      <PageNavLink to="/how-to-bet/betting-101/betting-odds">next: betting odds</PageNavLink>
       <ScrollUp />
     </ArticleBottom>
   </>

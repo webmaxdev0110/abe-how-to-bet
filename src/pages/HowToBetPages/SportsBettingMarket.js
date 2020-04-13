@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArticleLayout, ArticleBottom } from '../../layout';
-import { Heading, Paragraph, Anchor, ScrollUp } from '../../components';
+import { Heading, Paragraph, PageNavLink, ScrollUp } from '../../components';
 
 const Page = () => (
   <>
@@ -78,7 +78,7 @@ const Page = () => (
       </Paragraph>
     </ArticleLayout>
     <ArticleBottom>
-      <Anchor fontSize="14" lineHeight="16" color="#88979E" to="/how-to-bet/advanced-betting-concepts/implied-probability">next: Implied Probability</Anchor>
+      <PageNavLink to="/how-to-bet/advanced-betting-concepts/implied-probability">next: Implied Probability</PageNavLink>
       <ScrollUp />
     </ArticleBottom>
   </>

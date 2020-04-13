@@ -9,6 +9,7 @@ import ScrollUp from './ScrollUp';
 import Banner from './Banner';
 import BetItem from './BetItem';
 import BlogItem from './BlogItem';
+import PageNavLink from './PageNavLink';
 
 export {
   Header,
@@ -22,4 +23,5 @@ export {
   Banner,
   BetItem,
   BlogItem,
+  PageNavLink,
 };

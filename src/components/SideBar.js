@@ -55,6 +55,7 @@ const StyledHeadingLink = styled(Link)`
 const StyledLink = styled(Link)`
   display: block;
   margin-bottom: 15px;
+  font-family: Barlow;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.04em;
