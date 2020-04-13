@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Regular PRO";
+  font-weight: 400;
+  src: url("../fonts/Regular-Regular.otf") format("otf"),
+    url("../fonts/Regular-RegularWEB.woff") format("woff"),
+    url("../fonts/Regular-RegularWEB.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Regular PRO";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/Regular-RegularItalic.otf") format("otf"),
+    url("../fonts/Regular-RegularItalicWEB.woff") format("woff"),
+    url("../fonts/Regular-RegularItalicWEB.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Regular PRO";
+  font-weight: 700;
+  src: url("../fonts/Regular-Bold.otf") format("otf"),
+    url("../fonts/Regular-BoldWEB.woff") format("woff"),
+    url("../fonts/Regular-BoldWEB.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Regular PRO";
+  font-weight: 600;
+  src: url("../fonts/Regular-Semibold.otf") format("otf"),
+    url("../fonts/Regular-SemiboldWEB.woff") format("woff"),
+    url("../fonts/Regular-SemiboldWEB.woff2") format("woff2");
+}

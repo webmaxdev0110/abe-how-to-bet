@@ -1,0 +1,28 @@
+.btn {
+  min-width: 110px;
+  padding: 16px 0 14px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  font-family: 'Regular PRO';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+
+  color: $text-color;
+
+  &.btn-primary {
+    min-width: 120px;
+    background-color: $primary-color;
+    border-color: $primary-color;
+    color: white;
+  }
+
+  &.btn-outline-secondary {
+    background-color: white;
+    border-color: $secondary-border-color;
+    color: $text-color;
+  }
+}
