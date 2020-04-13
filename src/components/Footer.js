@@ -20,6 +20,7 @@ const StyledInnerLeft = styled.div`
 const StyledInnerRight = styled.div`
   max-width: 100%;
   width: 455px;
+  margin-right: 35px;
 `;
 
 const StyledFooterText = styled.p`
@@ -39,6 +40,12 @@ const StyledSocialIcon = styled.a`
   border-radius: 15px;
   background-color: #001D29;
   cursor: pointer;
+
+  transition: all .2s;
+
+  &:hover {
+    background-color: #0C40FC;
+  }
 `;
 
 const Footer = () => (
